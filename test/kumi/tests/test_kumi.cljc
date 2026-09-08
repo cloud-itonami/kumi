@@ -3,7 +3,7 @@
   family). Verifies the pipeline's mathematical + constitutional invariants on
   the synthetic, fictional seed."
   (:require [clojure.test :refer [deftest is testing run-tests]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             #?(:clj [clojure.java.io :as io])
             [kumi.methods.kumi :as k]))
 
@@ -75,7 +75,7 @@
                   (map? x) (concat (keys x) (mapcat walk-keys (vals x)))
                   (sequential? x) (mapcat walk-keys x)
                   :else []))]
-        (is (not-any? (fn [k] (str/includes? (str/lower-case (str k)) "causal")) (walk-keys r)))))))
+        (is (not-any? (fn [k] (str/includes? (str/lower (str k)) "causal")) (walk-keys r)))))))
 
 ;; ── loop classification (on the real seed, verified by running the beat) ──
 
