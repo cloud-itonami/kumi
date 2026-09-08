@@ -39,7 +39,7 @@
       abaki's target-list prohibition).
    G8 Murakumo-only inference, no-server-key — standard cross-actor
       convention; this R0 namespace performs no LLM call and holds no key."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [clojure.edn :as edn]
             #?(:clj [clojure.java.io :as io])))
 
