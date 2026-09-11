@@ -45,7 +45,7 @@ optional `:public-charter-or-registry-ref`. Never a private individual (G1).
 bb -cp 20-actors -m kumi.methods.kumi 20-actors/kumi/data/seed-communities.kotoba.edn
 
 # tests
-bb 20-actors/kumi/run_tests.clj
+bb 20-actors/kumi/run_tests.cljk
 ```
 
 Seed run: 9 communities (spanning political/religious/sports/cultural/historical/civic/labor),
