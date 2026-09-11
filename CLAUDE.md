@@ -86,7 +86,7 @@ combined on sourcing and non-adjudication, never less.
 bb -cp 20-actors -m kumi.methods.kumi 20-actors/kumi/data/seed-communities.kotoba.edn
 
 # tests (11 tests / 76 assertions)
-bb 20-actors/kumi/run_tests.clj
+bb 20-actors/kumi/run_tests.cljk
 ```
 
 Seed run: 9 communities, 13 ties, 5 loops (3 dyad + 2 triad) → regimes
@@ -102,7 +102,7 @@ the highest cross-domain versatility, the kaname discriminator).
 | `tests/test_kumi.cljc` | invariant + gate tests |
 | `data/seed-communities.kotoba.edn` | synthetic, fictional community seed (political/religious/sports/cultural/historical/civic/labor) |
 | `manifest.edn` | actor manifest |
-| `run_tests.clj` | babashka test runner |
+| `run_tests.cljk` | babashka test runner |
 
 ## Do not
 
