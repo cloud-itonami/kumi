@@ -83,10 +83,10 @@ combined on sourcing and non-adjudication, never less.
 
 ```bash
 # one beat over the synthetic seed
-bb -cp 20-actors -m kumi.methods.kumi 20-actors/kumi/data/seed-communities.kotoba.edn
+kbb -cp 20-actors -m kumi.methods.kumi 20-actors/kumi/data/seed-communities.kotoba.edn
 
 # tests (11 tests / 76 assertions)
-bb 20-actors/kumi/run_tests.cljk
+kbb 20-actors/kumi/run_tests.cljk
 ```
 
 Seed run: 9 communities, 13 ties, 5 loops (3 dyad + 2 triad) → regimes
