@@ -2,7 +2,7 @@
   "kumi 組 — community-entity graph + system-dynamics tests (ADR-2607101800
   family). Verifies the pipeline's mathematical + constitutional invariants on
   the synthetic, fictional seed."
-  (:require [clojure.test :refer [deftest is testing run-tests]]
+  (:require [kotoba.test :refer [deftest is testing run-tests]]
             [kotoba.lang.text :as str]
             #?(:clj [clojure.java.io :as io])
             [kumi.methods.kumi :as k]))

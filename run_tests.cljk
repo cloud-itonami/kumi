@@ -1,7 +1,7 @@
 #!/usr/bin/env kbb
 ;; kumi 組 — test runner (babashka; run_tests.cljk not run_tests.sh, per repo
 ;; "new actors ship run_tests.cljk" convention). Run from repo root with `kbb -M:test`.
-(require '[clojure.test :as t])
+(require '[kotoba.test :as t])
 
 (binding [*compile-path* nil]
   (require 'kumi.methods.kumi 'kumi.tests.test-kumi))
