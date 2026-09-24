@@ -41,7 +41,7 @@
       convention; this R0 namespace performs no LLM call and holds no key."
   (:require [kotoba.lang.text :as str]
             [kotoba.lang.edn :as edn]
-            #?(:clj [clojure.java.io :as io])))
+            #?(:clj [kotoba.io :as io])))
 
 (def domain-classes
   #{":political" ":religious" ":cultural" ":historical" ":sports"
