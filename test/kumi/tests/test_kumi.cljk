@@ -4,7 +4,7 @@
   the synthetic, fictional seed."
   (:require [kotoba.test :refer [deftest is testing run-tests]]
             [kotoba.lang.text :as str]
-            #?(:clj [clojure.java.io :as io])
+            #?(:clj [kotoba.io :as io])
             [kumi.methods.kumi :as k]))
 
 #?(:clj (def seed-path (io/file "data" "seed-communities.kotoba.edn")))
