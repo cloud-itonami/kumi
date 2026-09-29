@@ -58,7 +58,7 @@ G1 person-excluded · G2 public-declaration-only sourcing (≥2 citations on dep
 non-adjudicating/no belief-content · G4 no-causal-overclaim on influences · G5 no actuator
 (analysis-only, stronger than kizuna/kaname) · G6 no stored per-community power score (read-only)
 · G7 resilience-routing only, never a target-list · G8 Murakumo-only/no-server-key. Full table in
-`CLAUDE.md` / ADR-2607101830.
+`AGENTS.md` / ADR-2607101830.
 
 ## Honest R0
 
