@@ -2,7 +2,7 @@
 
 **DID**: `did:web:etzhayyim.com:actor:kumi` · **Tier**: B · **Status**: R0 · **ADR**: 2607101830
 
-**Read the root `/CLAUDE.md` Charter first.** kumi-specific invariants below OVERRIDE nothing
+**Read the root `/AGENTS.md` Charter first.** kumi-specific invariants below OVERRIDE nothing
 in the Charter; they make it concrete for this actor.
 
 ## What kumi is
